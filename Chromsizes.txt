@@ -1,0 +1,9 @@
+mat1	5474
+unitig_0_consensus	6835803
+unitig_1_consensus	6234656
+unitig_2_consensus	5311445
+unitig_3_consensus	4556834
+unitig_4_consensus	4159965
+unitig_5_consensus	4000387
+unitig_6_consensus	3823438
+
