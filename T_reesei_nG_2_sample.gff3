@@ -1,0 +1,69 @@
+unitig_0_consensus	R	gene	7295	16807	.	+	.	ID=TrA0001W;Name=TrA0001W;Note=,unknown protein
+unitig_0_consensus	R	mRNA	7295	16807	.	+	.	ID=mRNA_TrA0001W;Parent=TrA0001W;Name=TrA0001W;Note=,unknown protein
+unitig_0_consensus	maker	exon	7295	9560	.	+	.	Parent=mRNA_TrA0001W
+unitig_0_consensus	R	CDS	7295	9560	.	+	1	Parent=mRNA_TrA0001W
+unitig_0_consensus	maker	exon	9981	13210	.	+	.	Parent=mRNA_TrA0001W
+unitig_0_consensus	R	CDS	9981	13210	.	+	0	Parent=mRNA_TrA0001W
+unitig_0_consensus	maker	exon	13244	15449	.	+	.	Parent=mRNA_TrA0001W
+unitig_0_consensus	R	CDS	13244	15449	.	+	1	Parent=mRNA_TrA0001W
+unitig_0_consensus	maker	exon	15507	16807	.	+	.	Parent=mRNA_TrA0001W
+unitig_0_consensus	R	CDS	15507	16807	.	+	0	Parent=mRNA_TrA0001W
+unitig_0_consensus	R	gene	17180	19774	.	-	.	ID=TrA0002C;Name=TrA0002C;Note=,Zn2Cys6 transcriptional regulator
+unitig_0_consensus	R	mRNA	17180	19774	.	-	.	ID=mRNA_TrA0002C;Parent=TrA0002C;Name=TrA0002C;Note=,Zn2Cys6 transcriptional regulator
+unitig_0_consensus	maker	exon	17180	17282	.	-	.	Parent=mRNA_TrA0002C
+unitig_0_consensus	R	CDS	17180	17282	.	-	1	Parent=mRNA_TrA0002C
+unitig_0_consensus	maker	exon	17395	18764	.	-	.	Parent=mRNA_TrA0002C
+unitig_0_consensus	R	CDS	17395	18764	.	-	0	Parent=mRNA_TrA0002C
+unitig_0_consensus	maker	exon	18819	19160	.	-	.	Parent=mRNA_TrA0002C
+unitig_0_consensus	R	CDS	18819	19160	.	-	0	Parent=mRNA_TrA0002C
+unitig_0_consensus	maker	exon	19226	19774	.	-	.	Parent=mRNA_TrA0002C
+unitig_0_consensus	R	CDS	19226	19774	.	-	0	Parent=mRNA_TrA0002C
+unitig_0_consensus	R	gene	20663	21727	.	+	.	ID=TrA0003W;Name=TrA0003W;Note=,unknown protein
+unitig_0_consensus	R	mRNA	20663	21727	.	+	.	ID=mRNA_TrA0003W;Parent=TrA0003W;Name=TrA0003W;Note=,unknown protein
+unitig_0_consensus	maker	exon	20663	21727	.	+	.	Parent=mRNA_TrA0003W
+unitig_0_consensus	R	CDS	20663	21727	.	+	0	Parent=mRNA_TrA0003W
+unitig_0_consensus	R	gene	22342	23250	.	+	.	ID=TrA0004W;Name=TrA0004W;Note=,unknown protein
+unitig_0_consensus	R	mRNA	22342	23250	.	+	.	ID=mRNA_TrA0004W;Parent=TrA0004W;Name=TrA0004W;Note=,unknown protein
+unitig_0_consensus	maker	exon	22342	22504	.	+	.	Parent=mRNA_TrA0004W
+unitig_0_consensus	R	CDS	22342	22504	.	+	1	Parent=mRNA_TrA0004W
+unitig_0_consensus	maker	exon	22573	22885	.	+	.	Parent=mRNA_TrA0004W
+unitig_0_consensus	R	CDS	22573	22885	.	+	0	Parent=mRNA_TrA0004W
+unitig_0_consensus	maker	exon	22944	23250	.	+	.	Parent=mRNA_TrA0004W
+unitig_0_consensus	R	CDS	22944	23250	.	+	2	Parent=mRNA_TrA0004W
+unitig_0_consensus	R	gene	23673	24498	.	+	.	ID=TrA0005W;Name=TrA0005W;Note=,-
+unitig_0_consensus	R	mRNA	23673	24498	.	+	.	ID=mRNA_TrA0005W;Parent=TrA0005W;Name=TrA0005W;Note=,-
+unitig_0_consensus	maker	exon	23673	23699	.	+	.	Parent=mRNA_TrA0005W
+unitig_0_consensus	R	CDS	23673	23699	.	+	0	Parent=mRNA_TrA0005W
+unitig_0_consensus	maker	exon	23768	24033	.	+	.	Parent=mRNA_TrA0005W
+unitig_0_consensus	R	CDS	23768	24033	.	+	0	Parent=mRNA_TrA0005W
+unitig_0_consensus	maker	exon	24138	24498	.	+	.	Parent=mRNA_TrA0005W
+unitig_0_consensus	R	CDS	24138	24498	.	+	1	Parent=mRNA_TrA0005W
+unitig_0_consensus	R	gene	25499	26482	.	+	.	ID=TrA0006W;Name=TrA0006W;Note=,unknown protein
+unitig_0_consensus	R	mRNA	25499	26482	.	+	.	ID=mRNA_TrA0006W;Parent=TrA0006W;Name=TrA0006W;Note=,unknown protein
+unitig_0_consensus	maker	exon	25499	26007	.	+	.	Parent=mRNA_TrA0006W
+unitig_0_consensus	R	CDS	25499	26007	.	+	2	Parent=mRNA_TrA0006W
+unitig_0_consensus	maker	exon	26071	26482	.	+	.	Parent=mRNA_TrA0006W
+unitig_0_consensus	R	CDS	26071	26482	.	+	0	Parent=mRNA_TrA0006W
+unitig_0_consensus	R	gene	27933	28859	.	+	.	ID=TrA0007W;Name=TrA0007W;Note=,metallophosphoesterase
+unitig_0_consensus	R	mRNA	27933	28859	.	+	.	ID=mRNA_TrA0007W;Parent=TrA0007W;Name=TrA0007W;Note=,metallophosphoesterase
+unitig_0_consensus	maker	exon	27933	28859	.	+	.	Parent=mRNA_TrA0007W
+unitig_0_consensus	R	CDS	27933	28859	.	+	0	Parent=mRNA_TrA0007W
+unitig_0_consensus	R	gene	30438	31469	.	+	.	ID=TrA0008W;Name=TrA0008W;Note=chi18-15,GH18, chitinase CHI18-15
+unitig_0_consensus	R	mRNA	30438	31469	.	+	.	ID=mRNA_TrA0008W;Parent=TrA0008W;Name=TrA0008W;Note=chi18-15,GH18, chitinase CHI18-15
+unitig_0_consensus	maker	exon	30438	31469	.	+	.	Parent=mRNA_TrA0008W
+unitig_0_consensus	R	CDS	30438	31469	.	+	0	Parent=mRNA_TrA0008W
+unitig_0_consensus	R	gene	32807	33574	.	+	.	ID=TrA0009W;Name=TrA0009W;Note=,short chain dehydrogenase/reductase 
+unitig_0_consensus	R	mRNA	32807	33574	.	+	.	ID=mRNA_TrA0009W;Parent=TrA0009W;Name=TrA0009W;Note=,short chain dehydrogenase/reductase 
+unitig_0_consensus	maker	exon	32807	33574	.	+	.	Parent=mRNA_TrA0009W
+unitig_0_consensus	R	CDS	32807	33574	.	+	0	Parent=mRNA_TrA0009W
+unitig_0_consensus	R	gene	33924	35719	.	-	.	ID=TrA0010C;Name=TrA0010C;Note=,Amino acid transporter PotE
+unitig_0_consensus	R	mRNA	33924	35719	.	-	.	ID=mRNA_TrA0010C;Parent=TrA0010C;Name=TrA0010C;Note=,Amino acid transporter PotE
+unitig_0_consensus	maker	exon	33924	34394	.	-	.	Parent=mRNA_TrA0010C
+unitig_0_consensus	R	CDS	33924	34394	.	-	2	Parent=mRNA_TrA0010C
+unitig_0_consensus	maker	exon	34454	34587	.	-	.	Parent=mRNA_TrA0010C
+unitig_0_consensus	R	CDS	34454	34587	.	-	1	Parent=mRNA_TrA0010C
+unitig_0_consensus	maker	exon	34646	35295	.	-	.	Parent=mRNA_TrA0010C
+unitig_0_consensus	R	CDS	34646	35295	.	-	0	Parent=mRNA_TrA0010C
+unitig_0_consensus	maker	exon	35373	35719	.	-	.	Parent=mRNA_TrA0010C
+unitig_0_consensus	R	CDS	35373	35719	.	-	2	Parent=mRNA_TrA0010C
+
