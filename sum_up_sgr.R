@@ -87,7 +87,7 @@ cat('3 Trace files were saved: raw, 1st deviation and 2nd deviation in: \n', out
 
 # cd /home/harald/Dropbox/shell_scripts
 #  Rscript sum_up_sgr.R /media/harald/Disk_12/Monika/1260a7497b4b1b285e2ed83ab40de8bc/sgr/test test1.rda
-
+ 
 
 
 
