@@ -21,6 +21,7 @@ Rscript TEP_from_transcript.R input.rda Annotation_file.gff3 Remove_in_gene_name
 
 The input file is the output from sum_up_sgr.R, the annotation file needs to have 'exon' features. Column 9 has only the gene name and something like ID= or Parent= what can be removed using Remove_in_gene_name. 
 A line in the gff file should look like:
+
 unitig_0_consensus	maker	exon	7295	9560	.	+	.	Parent=mRNA_TrA0001W
 
 A Threshold can be provided, by using 0 it will be calculated internally.
