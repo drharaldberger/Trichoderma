@@ -22,5 +22,7 @@ Rscript TEP_from_transcript.R input.rda Annotation_file.gff3 Remove_in_gene_name
 The input file is the output from sum_up_sgr.R, the annotation file needs to have 'exon' features. Column 9 has only the gene name and something like ID= or Parent= what can be removed using Remove_in_gene_name.
 A Threshold can be provided, by using 0 it will be calculated internally.
 
+Requirements for these scripts are the packages GenomicRanges and stringr which need to be in libpath(). This is sometimes a mess in Windows.
+
 output is a bed file with a score (0-1000), strand and name info.
 
