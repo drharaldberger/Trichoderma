@@ -17,9 +17,9 @@ The output will be an R-data file, which is much smaller then the sgr file.
 
 In the next step the TSPs or TEPs are estimated based on the idea that the highest slopes of transcript coverage traces upstream of the 5' ATG may indicate possible TSP or downstream of the 3' STOP codon may indicate TEPs.
 
-<tt>Rscript TSP_from_transcript.R input.rda Annotation_file.gff3 Remove_in_gene_name Threshold output.bed
-  
-Rscript TEP_from_transcript.R input.rda Annotation_file.gff3 Remove_in_gene_name Threshold output.bed</tt>
+<tt>Rscript TSP_from_transcript.R input.rda Annotation_file.gff3 Remove_in_gene_name Threshold output.bed</tt>
+ or 
+<tt>Rscript TEP_from_transcript.R input.rda Annotation_file.gff3 Remove_in_gene_name Threshold output.bed</tt>
 
 The input file is the output from sum_up_sgr.R, the annotation file needs to have 'exon' features. Column 9 has only the gene name and something like ID= or Parent= what can be removed using Remove_in_gene_name. 
 A line in the gff file should look like:
