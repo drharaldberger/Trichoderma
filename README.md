@@ -1,10 +1,9 @@
 # Trichoderma
 <h3>Theory:</h3>
 These scripts are based on the ideas used in mountainClimber (mountainClimber Identifies Alternative Transcription Start and Polyadenylation Sites in RNA-Seq) by Ashley A Cass and Xinshu Xiao 2019
-<a href="github.com/gxiaolab/mountainClimber">github.com/gxiaolab/mountainClimber</a> <br>
+<a href="https://github.com/gxiaolab/mountainClimber">github.com/gxiaolab/mountainClimber</a> <br>
 but has been modified for gene dense genomes as common in fungi.
 Basically the stonges upstream slopes or downstream slopes are considered as TSP or TEP, respectively.<br>
-
 The input for these scripts are coverage traces from RNA-seq experiments. Typically these can be calculated from sorted and indexed .bam files as results from read mappings. These traces can be produced using e.g. bedtools like:
 
 <tt>bedtools genomecov -d -scale <normalization scale> -strand <+/->  -ibam input.bam  > output_trace.sgr</tt>
