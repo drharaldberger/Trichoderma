@@ -11,7 +11,7 @@ tryCatch({
 
 args <- commandArgs(TRUE)
 
-cat('\n\n\nThis script estimates transcription start point (TSP) \nbased on transcript traces;\n it requires a gff file with exon features\n\n ')
+cat('\n\n\nThis script estimates transcription end point (TEP) \nbased on transcript traces;\n it requires a gff file with exon features\n\n ')
 
 if (length(args)!=5) {
   stop("Usage: Rscript TSP_from_transcript input.rda input.gff e.g.:Parent=mRNA_ genome.txt output_file.txt transcript_threshold")
@@ -283,7 +283,7 @@ detect_TEP <- function(Tr_trace, Tr_trace1st ,Tr_trace2nd , exon5prime, exon3pri
       
     }
   }
-  return(data.frame(genes=genes1, TEP, STOP, strand=strand2, TEPscore= TEP_p, TEP_desc, stringsAsFactors = F))
+  return(data.frame(genes=genes1, TEP, STOP, strand=strand2, TEP_score= TEP_p, TEP_desc, stringsAsFactors = F))
 }
 
 
@@ -319,24 +319,20 @@ ascent_through<- function(x,thresh=0){
 
 
 
-cat('TSP detection started....\n\n')
+cat('TEP detection started....\n\n')
 cat('Genes analysed:\n')
 TEP.df.test <- detect_TEP(Tr_trace=Tr_trace, Tr_trace1st=Tr_trace1st ,Tr_trace2nd=Tr_trace2nd, exon5prime=min_Gr, exon3prime=max_Gr, exon_tr=min_max_df, genome.sizesGR=genome.sizesGR)
 cat('\n\nDone!!!\n')
-m1<- apply(TSP.df.test[,2:3],1,sort)
+m1<- apply(TEP.df.test[,2:3],1,sort)
 df.TEP.test <- data.frame(genes=TEP.df.test$genes,t(m1),TEP.df.test$strand,round(TEP.df.test$TEP_score), stringsAsFactors = F)
 
 
 df.genes <- data.frame(chr=gff2$V1,genes=exons,stringsAsFactors = F)
 df.genesU <- unique(df.genes)
 
-df.TSP.merged <- merge(df.genesU,df.TSP.test,by='genes')
-df.TSP.merged <- format(df.TSP.merged, scientific=F, trim = T)
-write.table(df.TSP.merged[,c(2:4,1,6,5)],output.file, sep = '\t', row.names = F,col.names = F,quote = F)
+df.TEP.merged <- merge(df.genesU,df.TEP.test,by='genes')
+df.TEP.merged <- format(df.TEP.merged, scientific=F, trim = T)
+write.table(df.TEP.merged[,c(2:4,1,6,5)],output.file, sep = '\t', row.names = F,col.names = F,quote = F)
 cat('\n\nWrite .bed file:\n',output.file,'\n\n')
 # output.file <- 'test.bed'
 ##################################################################################################################
- #  Rscript TSP_from_transcript input.rda input.gff e.g.:Parent=mRNA_ genome.txt output_file.txt transcript_threshold
-## setwd('/media/harald/Disk_12/Monika/1260a7497b4b1b285e2ed83ab40de8bc/sgr/DD_f')
-# cd /media/harald/Disk_12/Monika/1260a7497b4b1b285e2ed83ab40de8bc/sgr/DD_f 
-###  Rscript /home/harald/Dropbox/shell_scripts/TSP_from_transcript.R test1.rda /home/harald/Dropbox/Monika/From_Wolfgang_new_Trichoderma_anno/QM6a_gene_annotation/T_reesei_nG_2.gff3 Parent=mRNA_ /home/harald/Dropbox/Monika/From_Wolfgang_new_Trichoderma_anno/QM6a_gene_annotation/Chromsizes.txt test2.bed 0
